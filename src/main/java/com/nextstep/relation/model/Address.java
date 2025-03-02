@@ -6,6 +6,8 @@ import javax.persistence.*;
 @Data
 @Entity
 public class Address {
+
+//    relations
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
