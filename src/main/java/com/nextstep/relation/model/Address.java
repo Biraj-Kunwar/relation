@@ -13,6 +13,8 @@ public class Address {
     private int id;
     private String city, province, zipcode;
 
+
+//    realtion imp
     @OneToOne
     private Student student;  // The Address has a reference to Student
 }
